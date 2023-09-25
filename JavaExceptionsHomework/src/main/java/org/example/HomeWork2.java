@@ -32,7 +32,7 @@ public class HomeWork2 {
            double catchedRes1 = intArray[8] / d;
            System.out.println("catchedRes1 = " + catchedRes1);
        } else {
-           throw new ArithmeticException();
+           System.out.println("You can't divide by zero.");
        }
        */
 
