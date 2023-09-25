@@ -27,13 +27,15 @@ public class HomeWork2 {
         }
         ***
         Исправленный код:
-       int d = 0;
-       if (d != 0) {
-           double catchedRes1 = intArray[8] / d;
-           System.out.println("catchedRes1 = " + catchedRes1);
-       } else {
-           System.out.println("You can't divide by zero.");
-       }
+        int d = 0;
+        if (d == 0) {
+	        System.out.println("You can't divide by zero.");
+        } elseif (intArray.length < 9) {
+             System.out.println("Invalid array element index.");
+        } else {
+             double catchedRes1 = intArray[8] / d;
+        System.out.println("catchedRes1 = " + catchedRes1);
+        }
        */
 
         /*
